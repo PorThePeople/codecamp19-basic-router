@@ -13,3 +13,11 @@ git init
 git add .
 git commit -m "Add a descriptive message"
 ```
+
+## Step 3 Install react-router
+
+React-Router Documentation: https://reactrouter.com/start/library/installation
+
+```bash
+npm i react-router
+```
