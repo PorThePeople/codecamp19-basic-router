@@ -10,6 +10,11 @@ import Register from '../pages/Register';
 import Dashboard from '../pages/admin/Dashboard';
 import Manage from '../pages/admin/Manage';
 import Setting from '../pages/admin/Setting';
+import Recap from '../pages/Recap';
+import RecapUseState from '../pages/RecapUseState';
+import EasyZustand from '../pages/EasyZustand';
+import Product from '../pages/Product';
+import Cart from '../pages/Cart';
 
 function AppRoutes() {
   return (
@@ -22,6 +27,11 @@ function AppRoutes() {
           <Route path="contact" element={<Contact />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
+          <Route path="recap" element={<Recap />} />
+          <Route path="recap_usestate" element={<RecapUseState />} />
+          <Route path="easyzustand" element={<EasyZustand />} />
+          <Route path="product" element={<Product />} />
+          <Route path="cart" element={<Cart />} />
         </Route>
 
         {/* Private */}

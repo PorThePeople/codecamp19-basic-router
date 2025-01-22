@@ -78,3 +78,9 @@ function Layout() {
   );
 }
 ```
+
+## Step 7 Install Zustand
+
+```bash
+npm install zustand
+```
